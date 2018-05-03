@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFF94647</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="colorUnchecked">#FFFBB8B8</color>
+    <color name="colorWhite">#FFFFFFFF</color>
+    <color name="colorBlack">#FF000000</color>
+    <color name="colorDefaultBack">#FFEEEEEE</color>
+    <color name="colorTextShallow">#EEBBBBBB</color>
+
+    <color name="colorAuthor">#FF256986</color>
+</resources>

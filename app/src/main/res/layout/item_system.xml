@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:background="@drawable/index_item_back"
+    android:elevation="3dp"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/tv_kind_title"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:maxLines="1"
+        android:paddingEnd="5dp"
+        android:paddingStart="5dp"
+        android:textColor="@color/colorWhite"
+        android:textSize="14sp" />
+
+</RelativeLayout>

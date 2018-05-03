@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:background="@drawable/index_item_back"
+    android:elevation="3dp">
+
+    <ImageView
+        android:id="@+id/iv_back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" />
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/iv_back"
+        android:maxLines="1"
+        android:text="微Yue电子书阅读 WeYueReader"
+        android:textColor="@color/colorPrimary"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tv_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_title"
+        android:layout_marginTop="15dp"
+        android:maxLines="3"
+        android:text="注册登录、用户信息、用户密码、用户名）、书籍阅读（仅txt格式，暂反馈（反馈信息发送到我的邮箱）、应用版本更新"
+        android:textColor="@color/colorWhite"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tv_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_content"
+        android:layout_marginTop="10dp"
+        android:text="1524376619000"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tv_author"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_date"
+        android:layout_marginTop="10dp"
+        android:text="LiangLuDev"
+        android:visibility="gone" />
+
+</RelativeLayout>
